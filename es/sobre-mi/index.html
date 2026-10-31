@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Martin Saldaño Krogslund — Fundador de Nexlund | Tecnología para pymes</title>
-    <meta name="description" content="Martin Saldaño Krogslund, fundador de Nexlund Solutions y socio gerente de FitLink Global Solutions. Consultoría tecnológica, IA y automatización para pymes y emprendedores, desde Berlín." />
+    <meta name="description" content="Martin Saldaño Krogslund, fundador de Nexlund Solutions y socio gerente de FitLink Global Solutions. Acompañamiento tecnológico, IA y automatización para pymes y emprendedores, desde Berlín." />
     <meta name="author" content="Martin Saldaño Krogslund" />
     <link rel="canonical" href="https://nexlund.tech/es/sobre-mi/" />
     <link rel="alternate" hreflang="de" href="https://nexlund.tech/ueber-mich/" />
@@ -16,7 +16,7 @@
     <meta property="og:locale" content="es_ES" />
     <meta property="og:url" content="https://nexlund.tech/es/sobre-mi/" />
     <meta property="og:title" content="Martin Saldaño Krogslund — Fundador de Nexlund | Tecnología para pymes" />
-    <meta property="og:description" content="Martin Saldaño Krogslund, fundador de Nexlund Solutions y socio gerente de FitLink Global Solutions. Consultoría tecnológica, IA y automatización para pymes y emprendedores, desde Berlín." />
+    <meta property="og:description" content="Martin Saldaño Krogslund, fundador de Nexlund Solutions y socio gerente de FitLink Global Solutions. Acompañamiento tecnológico, IA y automatización para pymes y emprendedores, desde Berlín." />
     <meta property="og:image" content="https://nexlund.tech/assets/martin-og.jpg" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
@@ -26,28 +26,25 @@
     <meta property="profile:last_name" content="Saldaño Krogslund" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Martin Saldaño Krogslund — Fundador de Nexlund | Tecnología para pymes" />
-    <meta name="twitter:description" content="Martin Saldaño Krogslund, fundador de Nexlund Solutions y socio gerente de FitLink Global Solutions. Consultoría tecnológica, IA y automatización para pymes y emprendedores, desde Berlín." />
+    <meta name="twitter:description" content="Martin Saldaño Krogslund, fundador de Nexlund Solutions y socio gerente de FitLink Global Solutions. Acompañamiento tecnológico, IA y automatización para pymes y emprendedores, desde Berlín." />
     <meta name="twitter:image" content="https://nexlund.tech/assets/martin-og.jpg" />
     <meta name="twitter:image:alt" content="Martin Saldaño Krogslund, fundador de Nexlund Solutions" />
     <meta name="theme-color" content="#000517" />
     <link rel="icon" href="/Images/Logo%20Nexlund.png" type="image/png" />
     <link rel="apple-touch-icon" href="/Images/Logo%20Nexlund.png" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="/assets/site.css?v=2" />
+    <link rel="preload" href="/assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="/assets/site.css?v=4" />
     <style>
     .profile{max-width:1440px;margin:0 auto;padding:188px 56px 40px;display:grid;grid-template-columns:1.25fr .85fr;align-items:center;gap:72px}
     .profile h1{letter-spacing:-.03em;margin:18px 0 10px;font-size:clamp(38px,5vw,66px);line-height:1.03}
     .profile .role{color:var(--cyan);margin:0 0 22px;font-size:15px;font-weight:500;line-height:1.6}
-    .profile .lead{color:var(--muted);max-width:560px;margin:0 0 34px;font-size:18px;line-height:1.72}
+    .profile .lead{color:var(--muted);max-width:580px;margin:0 0 34px;font-size:17.5px;line-height:1.72}
     .profile-actions{flex-wrap:wrap;gap:14px;display:flex}
     .profile-card{border:1px solid var(--line);background:radial-gradient(circle at 50% -20%,#00b1e733,#0000 60%),linear-gradient(150deg,#000e34,#00061c);border-radius:28px;flex-direction:column;align-items:center;gap:20px;padding:52px 34px;display:flex;position:relative;overflow:hidden}
-    .monogram{color:var(--night);background:linear-gradient(140deg,var(--cyan),var(--cyan-dark));border-radius:28px;place-items:center;width:124px;height:124px;font-size:40px;font-weight:700;letter-spacing:.02em;display:grid;box-shadow:0 18px 50px #00b1e740}
     .profile-card b{text-align:center;font-size:19px;font-weight:600}
     .profile-card .card-role{color:var(--muted);text-align:center;margin:-12px 0 4px;font-size:14px;line-height:1.6}
-    .chips{flex-wrap:wrap;justify-content:center;gap:9px;display:flex}
-    .chips span{color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:7px 14px;font-size:12.5px}
+    .chips{flex-direction:column;align-items:stretch;gap:9px;width:100%;display:flex}
+    .chips span{color:var(--muted);text-align:center;border:1px solid var(--line);border-radius:14px;padding:9px 15px;font-size:12.5px;line-height:1.55}
     .prose{max-width:760px}
     .prose p{color:var(--muted);margin:0 0 22px;font-size:17px;line-height:1.8}
     .prose p:last-child{margin-bottom:0}
@@ -61,30 +58,31 @@
     .role-card .kicker{color:var(--cyan);margin:0 0 16px;font-size:13px;font-weight:500;letter-spacing:.02em}
     .role-card p{color:var(--muted);flex:1;margin:0 0 24px;font-size:15.5px;line-height:1.75}
     .about-back{justify-content:center;margin:0 auto 10px;display:flex}
+    .section+.section{padding-top:0}
     @media (max-width:1040px){.profile{grid-template-columns:1fr;gap:48px;padding:150px 28px 20px}.value-grid,.role-grid{grid-template-columns:1fr}}
     @media (max-width:860px){.profile{padding-inline:22px}.profile .lead{font-size:16.5px}}
     </style>
-    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "ProfilePage", "url": "https://nexlund.tech/es/sobre-mi/", "inLanguage": "es", "mainEntity": {"@type": "Person", "@id": "https://nexlund.tech/#martin-saldano-krogslund", "name": "Martin Saldaño Krogslund", "givenName": "Martin", "familyName": "Saldaño Krogslund", "jobTitle": "Fundador de Nexlund Solutions", "description": "Martin Saldaño Krogslund, fundador de Nexlund Solutions y socio gerente de FitLink Global Solutions. Consultoría tecnológica, IA y automatización para pymes y emprendedores, desde Berlín.", "url": "https://nexlund.tech/es/sobre-mi/", "email": "contact@nexlund.tech", "telephone": "+4915159457741", "knowsLanguage": ["de", "es", "en"], "address": {"@type": "PostalAddress", "streetAddress": "Agricolastraße 25", "postalCode": "10555", "addressLocality": "Berlin", "addressCountry": "DE"}, "worksFor": {"@type": "Organization", "@id": "https://nexlund.tech/#organization", "name": "Nexlund Solutions", "url": "https://nexlund.tech", "logo": "https://nexlund.tech/Images/Logo%20Nexlund.png"}, "affiliation": {"@type": "Organization", "name": "FitLink Global Solutions", "url": "https://fitlinkglobal.com"}, "sameAs": ["https://fitlinkglobal.com"], "knowsAbout": ["IT consulting", "Artificial intelligence", "Business process automation", "Small and medium-sized enterprises", "Fitness and wellness technology"], "image": {"@type": "ImageObject", "url": "https://nexlund.tech/assets/martin-saldano-krogslund.jpg", "width": 800, "height": 800, "caption": "Martin Saldaño Krogslund, fundador de Nexlund Solutions"}}, "breadcrumb": {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://nexlund.tech/es/"}, {"@type": "ListItem", "position": 2, "name": "Sobre Martin", "item": "https://nexlund.tech/es/sobre-mi/"}]}}</script>
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "ProfilePage", "url": "https://nexlund.tech/es/sobre-mi/", "inLanguage": "es", "mainEntity": {"@type": "Person", "@id": "https://nexlund.tech/#martin-saldano-krogslund", "name": "Martin Saldaño Krogslund", "givenName": "Martin", "familyName": "Saldaño Krogslund", "jobTitle": "Fundador de Nexlund Solutions", "description": "Martin Saldaño Krogslund, fundador de Nexlund Solutions y socio gerente de FitLink Global Solutions. Acompañamiento tecnológico, IA y automatización para pymes y emprendedores, desde Berlín.", "url": "https://nexlund.tech/es/sobre-mi/", "email": "contact@nexlund.tech", "telephone": "+4915159457741", "knowsLanguage": ["de", "es", "en"], "image": {"@type": "ImageObject", "url": "https://nexlund.tech/assets/martin-saldano-krogslund.jpg", "width": 800, "height": 800, "caption": "Martin Saldaño Krogslund, fundador de Nexlund Solutions"}, "address": {"@type": "PostalAddress", "streetAddress": "Agricolastraße 25", "postalCode": "10555", "addressLocality": "Berlin", "addressCountry": "DE"}, "worksFor": {"@type": "Organization", "@id": "https://nexlund.tech/#organization", "name": "Nexlund Solutions", "url": "https://nexlund.tech", "logo": "https://nexlund.tech/Images/Logo%20Nexlund.png"}, "affiliation": {"@type": "Organization", "name": "FitLink Global Solutions", "url": "https://fitlinkglobal.com"}, "sameAs": ["https://fitlinkglobal.com"], "knowsAbout": ["IT consulting", "Artificial intelligence", "Business process automation", "Small and medium-sized enterprises", "Fitness and wellness technology"]}, "breadcrumb": {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://nexlund.tech/es/"}, {"@type": "ListItem", "position": 2, "name": "Sobre nosotros", "item": "https://nexlund.tech/es/sobre-mi/"}]}}</script>
   </head>
   <body>
     <main>
       <header class="site-header">
         <a class="brand" href="/es/" aria-label="Nexlund home"><img alt="Nexlund Solutions" src="/Images/Logo Nexlund.png"></a>
-        <nav aria-label="Navegación principal"><a href="/es/#services">Servicios</a><a href="/es/#how">Cómo trabajamos</a><a href="/es/#contact">Contacto</a><a class="active" href="/es/sobre-mi/" aria-current="page">Sobre Martin</a></nav>
+        <nav aria-label="Navegación principal"><a href="/es/#services">Servicios</a><a href="/es/#how">Cómo trabajamos</a><a href="/es/#contact">Contacto</a><a class="active" href="/es/sobre-mi/" aria-current="page">Sobre nosotros</a></nav>
         <div class="header-actions">
           <div class="language" aria-label="Language selector"><a class="" href="/ueber-mich/" lang="de" hreflang="de">de</a><a class="active" href="/es/sobre-mi/" aria-current="page" lang="es" hreflang="es">es</a><a class="" href="/en/about/" lang="en" hreflang="en">en</a></div>
           <a class="nav-cta" href="/es/#contact">Reservar llamada</a>
         </div>
         <button class="menu-button" aria-label="Abrir o cerrar el menú" aria-expanded="false"><i></i><i></i><i></i></button>
       </header>
-      <div class="mobile-nav"><a href="/es/#services">Servicios</a><a href="/es/#how">Cómo trabajamos</a><a href="/es/#contact">Contacto</a><a class="active" href="/es/sobre-mi/" aria-current="page">Sobre Martin</a><div class="language"><a class="" href="/ueber-mich/" lang="de" hreflang="de">de</a><a class="active" href="/es/sobre-mi/" aria-current="page" lang="es" hreflang="es">es</a><a class="" href="/en/about/" lang="en" hreflang="en">en</a></div></div>
+      <div class="mobile-nav"><a href="/es/#services">Servicios</a><a href="/es/#how">Cómo trabajamos</a><a href="/es/#contact">Contacto</a><a class="active" href="/es/sobre-mi/" aria-current="page">Sobre nosotros</a><div class="language"><a class="" href="/ueber-mich/" lang="de" hreflang="de">de</a><a class="active" href="/es/sobre-mi/" aria-current="page" lang="es" hreflang="es">es</a><a class="" href="/en/about/" lang="en" hreflang="en">en</a></div></div>
 
       <section class="profile">
         <div>
           <div class="eyebrow"><span></span>Fundador de Nexlund · Berlín</div>
           <h1>Martin Saldaño Krogslund</h1>
           <p class="role">Fundador de Nexlund Solutions · Socio Gerente de FitLink Global Solutions</p>
-          <p class="lead">Fundé Nexlund para algo muy concreto: que una pyme pueda usar la misma tecnología que usan las grandes empresas, sin necesitar un departamento de IT ni un presupuesto de seis cifras.</p>
+          <p class="lead">Fundé Nexlund con un objetivo muy concreto: que los emprendedores y las pymes puedan acceder a los conceptos y herramientas tecnológicas más actuales, sin perder el foco en sus negocios.</p>
           <div class="profile-actions">
             <a class="button primary" href="https://calendly.com/martinus-sk/nexlund" target="_blank" rel="noopener">Hablemos 30 minutos<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-5-5 5 5-5 5"></path></svg></a>
             <a class="button secondary" href="/es/#services">Ver servicios<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-5-5 5 5-5 5"></path></svg></a>
@@ -94,7 +92,7 @@
           <img class="portrait" src="/assets/martin-saldano-krogslund.webp" width="800" height="800" alt="Martin Saldaño Krogslund, fundador de Nexlund Solutions" fetchpriority="high" decoding="async">
           <b>Martin Saldaño Krogslund</b>
           <p class="card-role">Fundador de Nexlund Solutions · Socio Gerente de FitLink Global Solutions</p>
-          <div class="chips"><span>Berlín, Alemania</span><span>Castellano · Alemán · Inglés</span><span>Pymes y emprendedores</span></div>
+          <div class="chips"><span>Desde Berlín, trabajo en remoto</span><span>Acompañamiento y consultoría en castellano, alemán e inglés</span><span>Pymes, emprendedores y centros deportivos</span></div>
         </aside>
       </section>
 
@@ -102,10 +100,10 @@
         <div class="section-head">
           <div>
             <div class="eyebrow"><span></span>Quién soy</div>
-            <h2>Traducir tecnología al idioma del negocio.</h2>
+            <h2>Acortar la distancia entre la tecnología y el negocio.</h2>
           </div>
         </div>
-        <div class="prose"><p>Trabajo desde Berlín, entre tres idiomas y tres mercados. Buena parte de mi día consiste en traducir: del lenguaje técnico al lenguaje del negocio, y del castellano al alemán o al inglés, según con quién esté hablando. Esa doble traducción es, en los hechos, el trabajo.</p><p>Lo que más me gusta de esto es el momento en que alguien ve su propio negocio funcionando mejor. Un estudio de pilates que deja de anotar reservas en un cuaderno. Una empresa familiar que recupera diez horas de administración por semana. Un emprendedor que por fin sabe, el día 5 del mes, cuánto facturó el mes anterior. No son transformaciones espectaculares: son cambios chicos y sostenibles, que se notan en la vida de la gente que lleva adelante el negocio.</p><p>No vendo software ni represento a ningún proveedor. Cuando un proyecto excede lo que puedo resolver yo, sumo especialistas verificados en IA, automatización o e-commerce, y me quedo del lado del cliente traduciendo. Esa independencia es deliberada: es lo que me permite recomendar lo que de verdad conviene.</p></div>
+        <div class="prose"><p>Vivimos un momento en el que la IA y otras herramientas de fácil acceso permiten desarrollar la actividad comercial de una forma mucho más veloz, automatizada y escalable. Eso lo vemos todos. El desafío del emprendedor es otro: cómo bajar esa tecnología a la operación, sobre todo cuando significa adentrarse en un mundo que desconoce, y cuando el trabajo del día a día no deja tiempo para revisar qué tecnologías funcionan y cuáles no.</p><p>Nexlund no busca la implementación de una tecnología en especial, sino el acompañamiento y el soporte en el proceso de digitalización y automatización. Acortar la distancia entre las tecnologías y los negocios.</p><p>Mi deseo es que la inteligencia artificial deje de ser un desafío y pase a ser un potenciador responsable de quien la usa. Responsable quiere decir dos cosas: que la persona entienda qué hace la herramienta y por qué, y que el criterio humano siga estando en las decisiones que importan. No se trata de delegar el negocio en una máquina, sino de sacarse de encima lo repetitivo para dedicarle tiempo a lo que sí necesita cabeza.</p></div>
       </section>
 
       <section class="section">
@@ -115,7 +113,17 @@
             <h2>Tres convicciones que ordenan cada proyecto.</h2>
           </div>
         </div>
-        <div class="value-grid"><article class="value-card"><h3>Dueños, no departamentos de IT</h3><p>Mis interlocutores son dueños, gerentes y fundadores. Si algo no se entiende en una conversación de treinta minutos, está mal explicado.</p></article><article class="value-card"><h3>Mejor chico y bien hecho</h3><p>Prefiero una herramienta simple que el equipo use todos los días antes que un sistema ambicioso que quede abandonado en tres meses.</p></article><article class="value-card"><h3>Entre idiomas y mercados</h3><p>Castellano, alemán e inglés. Trabajo con empresas que compran, venden o se expanden cruzando fronteras, donde el idioma suele ser parte del problema.</p></article></div>
+        <div class="value-grid"><article class="value-card"><h3>Dueños, no departamentos de IT</h3><p>Mis interlocutores son dueños, gerentes y fundadores. Si algo no se entiende en una conversación de treinta minutos, está mal explicado.</p></article><article class="value-card"><h3>Mejor chico y bien hecho</h3><p>Prefiero una herramienta simple que el equipo use todos los días antes que un sistema ambicioso que quede abandonado en tres meses.</p></article><article class="value-card"><h3>La IA como potenciador, no como desafío</h3><p>Que la herramienta amplifique a la persona, no que la reemplace ni la deje afuera de sus propias decisiones.</p></article></div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <div>
+            <div class="eyebrow"><span></span>Cómo trabajo</div>
+            <h2>El trabajo, en concreto.</h2>
+          </div>
+        </div>
+        <div class="prose"><p>Lo que más me gusta de esto es el momento en que alguien ve su propio negocio funcionando mejor. Un estudio de pilates que deja de anotar reservas en un cuaderno. Una empresa familiar que recupera diez horas de administración por semana. Un emprendedor que por fin sabe, el día 5 del mes, cuánto facturó el mes anterior. No son transformaciones espectaculares: son cambios chicos y sostenibles, que se notan en la vida de la gente que lleva adelante el negocio.</p><p>No vendo software ni represento a ningún proveedor. Cuando un proyecto excede lo que puedo resolver yo, sumo especialistas verificados en IA, automatización o e-commerce, y me quedo del lado del cliente traduciendo. Esa independencia es deliberada: es lo que me permite recomendar lo que de verdad conviene.</p><p>Trabajo desde Berlín, pero de forma digital. Eso me permite acompañar a clientes que están lejos, incluso en otros países, sin que la distancia cambie la forma de trabajar.</p></div>
       </section>
 
       <section class="section">
@@ -125,7 +133,7 @@
             <h2>Dónde trabajo y qué hago en cada lugar.</h2>
           </div>
         </div>
-        <div class="role-grid"><article class="role-card"><h3>Nexlund Solutions</h3><p class="kicker">Fundador · Berlín</p><p>Consultoría tecnológica para pymes y emprendedores: IA y automatización, apps y software a medida, hoja de ruta digital, integraciones entre las herramientas que ya usan y acompañamiento continuo.</p><a class="text-link" href="/es/#services">Ver servicios<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-5-5 5 5-5 5"></path></svg></a></article><article class="role-card"><h3>FitLink Global Solutions</h3><p class="kicker">Socio Gerente</p><p>FitLink conecta a fabricantes y plataformas del sector fitness y wellness con gimnasios, hoteles y operadores de clubes en nuevos mercados. Es donde lo tecnológico se cruza con la expansión internacional, y de donde viene mi especialización en tecnología para gimnasios, centros de fisioterapia y estudios de pilates.</p><a class="text-link" href="https://fitlinkglobal.com" target="_blank" rel="noopener">Visitar fitlinkglobal.com<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-5-5 5 5-5 5"></path></svg></a></article></div>
+        <div class="role-grid"><article class="role-card"><h3>Nexlund Solutions</h3><p class="kicker">Fundador · Berlín</p><p>Acompañamiento y consultoría tecnológica para pymes y emprendedores: IA y automatización, apps y software a medida, hoja de ruta digital, integraciones entre las herramientas que ya usan y soporte continuo.</p><a class="text-link" href="/es/#services">Ver servicios<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-5-5 5 5-5 5"></path></svg></a></article><article class="role-card"><h3>FitLink Global Solutions</h3><p class="kicker">Socio Gerente</p><p>FitLink conecta a fabricantes y plataformas del sector fitness y wellness con gimnasios, hoteles y operadores de clubes en nuevos mercados. Lo que disfruto ahí es lo mismo: darle al dueño de un gimnasio o de un centro de pilates la solución que mejor le sirve a su negocio, en lugar de forzar la implementación de un producto que no corresponde. El objetivo es conectar centros deportivos.</p><a class="text-link" href="https://fitlinkglobal.com" target="_blank" rel="noopener">Visitar fitlinkglobal.com<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-5-5 5 5-5 5"></path></svg></a></article></div>
       </section>
 
       <section class="cta-section">
@@ -143,7 +151,7 @@
             <p>Ayudamos a pequeñas y medianas empresas a atravesar la transformación tecnológica: cerca, en concreto y sin jerga.</p>
           </div>
           <div><b>Qué hacemos</b><a href="/es/#services">IA y automatización</a><a href="/es/#services">Apps y software</a><a href="/es/#services">Hoja de ruta digital</a><a href="/es/#services">Fitness &amp; Wellness Tech</a></div>
-          <div><b>Empresa</b><a href="/es/#how">Cómo trabajamos</a><a href="/es/#contact">Contacto</a><a href="/es/#contact">Reservar llamada</a><a href="/es/sobre-mi/">Sobre Martin</a></div>
+          <div><b>Empresa</b><a href="/es/#how">Cómo trabajamos</a><a href="/es/#contact">Contacto</a><a href="/es/#contact">Reservar llamada</a><a href="/es/sobre-mi/">Sobre nosotros</a></div>
           <div><b>Legal</b><a href="/es/">Aviso Legal</a><a href="/es/">Política de Privacidad</a></div>
         </div>
         <div class="about-back"><a class="text-link" href="/es/">Volver al inicio<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-5-5 5 5-5 5"></path></svg></a></div>
